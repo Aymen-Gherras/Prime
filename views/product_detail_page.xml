@@ -537,9 +537,12 @@
         </xpath>
     </template>
 
+    <!-- CE BLOC CAUSE L'ERREUR, IL FAUT LE COMMENTER COMME CI-DESSOUS -->
+    <!--
     <template id="ecom_show_extra_fields" inherit_id="website_sale.ecom_show_extra_fields" name="Theme Prime: Show Extra Fields">
         <xpath expr="//t[@t-if='any([product[field.name] for field in website.shop_extra_field_ids])']" position="replace"/>
     </template>
+    -->
 
     <template id="shop_product_carousel" inherit_id="website_sale.shop_product_carousel">
         <xpath expr="//a[hasclass('carousel-control-prev')]/i" position="attributes">
